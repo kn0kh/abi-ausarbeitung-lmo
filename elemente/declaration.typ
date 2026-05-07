@@ -1,4 +1,4 @@
-#import "/helpers/datum.typ": datum_bekommen
+#import "../helpers/datum.typ": datum_bekommen
 
 #let eig-ung(gruppenarbeit: false, stadt: "Berlin", name: "Max Mustermann") = {
     set page(numbering: none)

@@ -1,5 +1,5 @@
-#import "/helpers/datum.typ": aktuelles_abi, datum_bekommen
-#import "/helpers/validators.typ": _validate-deckblatt-inputs
+#import "../helpers/datum.typ": aktuelles_abi, datum_bekommen
+#import "../helpers/validators.typ": _validate-deckblatt-inputs
 
 #let render-deckblatt(
   leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!",
