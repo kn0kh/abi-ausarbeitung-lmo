@@ -34,7 +34,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 If the package is installed locally, you can use it to create a new project:
 
 ```bash
-typst init @local/abi-ausarbeitung:0.1.0 my-report
+typst init @local/easy-abi-ausarbeitung:0.1.0 my-report
 cd my-report
 typst watch main.typ
 ```
@@ -48,7 +48,7 @@ typst watch --root . template/main.typ
 The central idea is a `#show: ausarbeitung.with(...)` block. Everything that follows in the file is set as the main body of the report.
 
 ```typst
-#import "@local/abi-ausarbeitung:0.1.0": ausarbeitung
+#import "@local/easy-abi-ausarbeitung:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
 	leitfrage: "A very interesting guiding question about blueberries and their role in society!",

@@ -1,9 +1,10 @@
-#import "@local/abi-ausarbeitung:0.1.0": *
+#import "@local/easy-abi-ausarbeitung:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
 	// HIER KONFIGURIEREN
 	bibliography: bibliography("references.bib", style: "handout-5pk-lmo.csl", title: none), // handout-5pk-lmo ist enthält spezifischen Quellenstyl
 )
+// HIER DEN HAUPTTEIL SCHREIBEN
 = Themenfindung
 #linebreak()
 

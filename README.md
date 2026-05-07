@@ -37,7 +37,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 Wenn das Paket lokal installiert ist, kannst du damit ein neues Projekt erzeugen:
 
 ```bash
-typst init @local/abi-ausarbeitung:0.1.0 meine-ausarbeitung
+typst init @local/easy-abi-ausarbeitung:0.1.0 meine-ausarbeitung
 cd meine-ausarbeitung
 typst watch main.typ
 ```
@@ -51,7 +51,7 @@ typst watch --root . template/main.typ
 Die zentrale Idee ist ein `#show: ausarbeitung.with(...)`-Block. Alles, was danach in der Datei steht, wird als Hauptteil der Ausarbeitung gesetzt.
 
 ```typst
-#import "@local/abi-ausarbeitung:0.1.0": ausarbeitung
+#import "@local/easy-abi-ausarbeitung:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
 	leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!",
