@@ -1,4 +1,4 @@
-# Typst template for the written report of the 5th examination component in Berlin (Unofficial)
+# Typst template for the written report of the 5th examination component in Berlin
 
 Typst template for the written report for the 5th examination component in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
 

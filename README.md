@@ -1,4 +1,4 @@
-# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente in Berlin (Inoffiziell)
+# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente in Berlin
 
 Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
 
