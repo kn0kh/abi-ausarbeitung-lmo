@@ -2,7 +2,7 @@
 
 Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente am OSZ Lise-Meitner in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
 
-Die Vorlage ist bewusst schlank gehalten, du kannst es gerne clonen und bearbeiten.
+Die Vorlage ist bewusst schlank gehalten, du kannst die gerne clonen und bearbeiten.
 
 ## Voraussetzungen
 
