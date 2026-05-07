@@ -17,7 +17,6 @@
   let jahr = aktuelles_abi()
 
   page(
-    //header: lise-header,
     {
       v(5%)
 
@@ -31,13 +30,10 @@
       ]))
 
       v(1fr)
-      // Name of the student
       align(center, text(size: 18pt, name))
       v(3em)
-      // The title of the thesis
       align(center, text(size: 24pt, weight: "bold", leitfrage))
       v(3em)
-      // The current date
       align(center, text(
         size: 12pt,
         stadt + ", " + datum_bekommen(),
