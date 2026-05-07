@@ -2,14 +2,14 @@
 
 #show: ausarbeitung.with(
 	// HIER KONFIGURIEREN
-
 )
+
 // HIER DEN HAUPTTEIL SCHREIBEN
 = Themenfindung
 #linebreak()
 
-#align(center)[*Was soll untersucht werden? Wie bin ich auf des Thema gekommen? Wie lautet meine Leitfrage?*]
-Es soll der Prozess der Themenfindung beschrieben werden und wie schlussendlich man zum Thema und der Leitfrage, die ein differenziertes Urteil verlangt, gekommen ist. Hier können auch persönliche Gründe und/oder Bezüge zu aktuellen geschehnissen beschrieben werden. _(Warum wurde sich für eine Gruppenprüfung entschieden?)_
+#align(center)[*Was soll untersucht werden? Wie bin ich auf das Thema gekommen? Wie lautet meine Leitfrage?*]
+Es soll der Prozess der Themenfindung beschrieben werden und wie man schlussendlich zum Thema und der Leitfrage, die ein differenziertes Urteil verlangt, gekommen ist. Hier können auch persönliche Gründe und/oder Bezüge zu aktuellen Geschehnissen beschrieben werden. _(Warum wurde sich für eine Gruppenprüfung entschieden?)_
 #linebreak()
 #linebreak()
 
@@ -17,23 +17,23 @@ Es soll der Prozess der Themenfindung beschrieben werden und wie schlussendlich 
 #linebreak()
 
 #align(center)[*Welche Bedeutung und Relevanz hat das Thema?*]
-Darstellung, warum es allgemein und/oder fachlich bedeutsam ist, sich mit dem Thema und der Leitfrage yu beschäftisgen. Beschreibung worin die Zielsetzung der Auseinandersetzung mit dem Thema liegt und wie der inhaltliche Schwerpunkt zum Referenzfach aussieht sowie wo sich ein sinnovoller fächerübergreifender Bezug zum Bezugsfach herstellen lässt. _(Gemeinsame Darstellung)_
+Darstellung, warum es allgemein und/oder fachlich bedeutsam ist, sich mit dem Thema und der Leitfrage zu beschäftigen. Beschreibung worin die Zielsetzung der Auseinandersetzung mit dem Thema liegt und wie der inhaltliche Schwerpunkt zum Referenzfach aussieht sowie wo sich ein sinnvoller fächerübergreifender Bezug zum Bezugsfach herstellen lässt. _(Gemeinsame Darstellung)_
 #linebreak()
 #linebreak()
 
 = Eingrenzung
 #linebreak()
 
-#align(center)[*Wie habe ich das Thema engegrenzt? Was ist der Untersuchungsschwerpunkt?*]
-Darstellung und Begründung welche Untersuchungsaspekte nötig sind, um die Leitfrage zu beantworten, was das Exemeplarische an der Thematik ist und welche Aspekte weniger bedeutsam sind und deshalb außen vor gelassen werden. Begründete Darlegung, welche Betrachtungsebenen, Perspektiven, Kategorien und Kriterien den Kern der Untersuchung bilden, bzw. welche begründet außer Acht gelassen werden können. Es können auch Methoden beschrieben werden, die für die Untersuchung geeignet sind oder denkbar wären. _(Getrennte Darstellung)_
+#align(center)[*Wie habe ich das Thema eingegrenzt? Was ist der Untersuchungsschwerpunkt?*]
+Darstellung und Begründung welche Untersuchungsaspekte nötig sind, um die Leitfrage zu beantworten, was das Exemplarische an der Thematik ist und welche Aspekte weniger bedeutsam sind und deshalb außen vor gelassen werden. Begründete Darlegung, welche Betrachtungsebenen, Perspektiven, Kategorien und Kriterien den Kern der Untersuchung bilden, bzw. welche begründet außer Acht gelassen werden können. Es können auch Methoden beschrieben werden, die für die Untersuchung geeignet sind oder denkbar wären. _(Getrennte Darstellung)_
 #linebreak()
 #linebreak()
 
 = Gliederung
 #linebreak()
 
-#align(center)[*Wie möchte ich meine Präsentaion gliedern?*]
-Hier geht es um die begründete Beschreibung des Vorgehens bei der Präsenation, um die Leitfrage vorzustellen, die Argumentation darzulegen und eine differenzierte Antwort auf die Leitfrage zu geben. Dabei muss sich aus der Untersuchungsfrage einleitend ergeben, welche Aspekte im Hauptteil vorgestellt werden sollten. Hier sollte eine sinnvolle Struktur gewählt und diese nachvollziehbar begründet werden. Am Ende des Hauptteils biete sich oft eine zusammenfassende Übersicht der präsentierten Fakten und Argumente an, die dann im letzten Schritt für das Fazit benutzt werden kann. _(Getrennte Darstellung)_
+#align(center)[*Wie möchte ich meine Präsentation gliedern?*]
+Hier geht es um die begründete Beschreibung des Vorgehens bei der Präsentation, um die Leitfrage vorzustellen, die Argumentation darzulegen und eine differenzierte Antwort auf die Leitfrage zu geben. Dabei muss sich aus der Untersuchungsfrage einleitend ergeben, welche Aspekte im Hauptteil vorgestellt werden sollten. Hier sollte eine sinnvolle Struktur gewählt und diese nachvollziehbar begründet werden. Am Ende des Hauptteils bietet sich oft eine zusammenfassende Übersicht der präsentierten Fakten und Argumente an, die dann im letzten Schritt für das Fazit benutzt werden kann. _(Getrennte Darstellung)_
 #linebreak()
 #linebreak()
 
@@ -85,7 +85,7 @@ _(Getrennte Darstellung)_
 #linebreak()
 
 #align(center)[*Welche Probleme oder Schwierigkeiten sind bei der Bearbeitung aufgetreten?*]
-Es sollen die größten Hürden, die sich bei dem gesamten Arbeitsprozess der Vorbereitung der 5.PK ergeben haben systematisch beschrieben werden. Dabei sollen deren Ursachen und Auswirkungen dargelegt werden und Versuche oder Methoden umschieben werden, mit denen man diese Probleme zu lösen versuchte oder zukünftig lösen will. Es kann beschrieben werden, inwieweit die planerischen Schritte tragfähig waren und welche methodischen Erkenntnisse es gegeben hat.
+Es sollen die größten Hürden, die sich bei dem gesamten Arbeitsprozess der Vorbereitung der 5. PK ergeben haben, systematisch beschrieben werden. Dabei sollen deren Ursachen und Auswirkungen dargelegt werden und Versuche oder Methoden beschrieben werden, mit denen man diese Probleme zu lösen versuchte oder zukünftig lösen will. Es kann beschrieben werden, inwieweit die planerischen Schritte tragfähig waren und welche methodischen Erkenntnisse es gegeben hat.
 _(Getrennte Darlegung)_
 #linebreak()
 #linebreak()

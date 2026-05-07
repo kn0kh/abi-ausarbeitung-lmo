@@ -87,7 +87,7 @@ You can use headings, lists, quotations, and sources in the main body as usual. 
 
 | Parameter | Default | Meaning |
 | --- | --- | --- |
-| `bibliography-style` | `handout-5pk-lmo` | Bibliography style e.g "ieee" (handout-5pk-lmo is a custom style, specificly for the 5th examination component in Berlin) |
+| `bibliography-style` | `handout-5pk-lmo` | Bibliography style e.g "ieee" (handout-5pk-lmo is a custom style, specifically for the 5th examination component in Berlin) |
 | `gruppenarbeit` | `false` | Uses the plural "we" form on the declaration page |
 | `stadt` | `Berlin` | Place in the declaration of originality |
 | `abstand-oben` | `25mm` | Top margin |

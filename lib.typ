@@ -8,21 +8,21 @@
   abstand-links: 25mm, // zwischen 20mm und 30mm
   abstand-rechts: 25mm, // zwischen 20mm und 30mm
   schriftart: "Times New Roman", // "Arial" | "Times New Roman" | "Verdana"
-  leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!", // deine Leitrfage
+  leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!", // deine Leitfrage
   name: "Max Mustermann", // dein Name
   referenzfach: "[Referenzfach]", // dein Referenzfach
-  bezugsfach: "[Bezungsfach]", // dein Bezugsfach
-  pruefer: ((name: "Frau Muster"), (name: "Herr Mann")), // deine Prüfende
+  bezugsfach: "[Bezugsfach]", // dein Bezugsfach
+  pruefer: ((name: "Frau Muster"), (name: "Herr Mann")), // deine Prüfenden
   vorgelegt_am: datetime.today(), // Tag der Abgabe
   abgabetermin_am: datetime.today(), // Datum der Frist 
   body, // Hauptteil
   bibliography-style: "handout-5pk-lmo.csl", // "handout-5pk-lmo" or any other style available in typst
-  gruppenarbeit: false, // true = Gruppearbeit
-  stadt: "Berlin", // Stadt in der die Arbeit geschrieben wird (veraussetzlich Berlin)
+  gruppenarbeit: false, // true = Gruppenarbeit
+  stadt: "Berlin", // Stadt in der die Arbeit geschrieben wird (voraussichtlich Berlin)
   schule: "OSZ-Lise-Meitner" // deine Schule
   ) = {
 
-  // Algemein
+  // Allgemein
   _validate-algemein-inputs(abstand-oben, abstand-unten, abstand-links, abstand-rechts, schriftart)
   //Randabstände
   set page(

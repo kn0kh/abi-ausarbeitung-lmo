@@ -2,10 +2,10 @@
 
 Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
 
-Die Vorlage ist bewusst schlank gehalten, du kannst die gerne clonen und bearbeiten.
+Die Vorlage ist bewusst schlank gehalten, du kannst sie gerne klonen und bearbeiten.
 
 Typst template for the written report for the 5th examination component in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
-Thought this Template is only intended for German users here is a english version of readme: [README-en.md](README-en.md)
+Though this template is only intended for German users, here is an English version of the README: [README-en.md](README-en.md)
 
 ## Voraussetzungen
 

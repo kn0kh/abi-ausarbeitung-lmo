@@ -15,11 +15,11 @@
     )
     assert(
       type(abstand-oben) == length and abstand-oben >= 20mm and abstand-oben <= 25mm,
-      message: "Obere Abstand soll zwischen 20mm und 25mm sein"
+      message: "Der obere Abstand soll zwischen 20mm und 25mm sein"
     )
     assert(
       type(abstand-unten) == length and abstand-unten >= 20mm and abstand-unten <= 25mm,
-      message: "Untere Abstand soll zwischen 20mm und 30mm sein"
+      message: "Der untere Abstand soll zwischen 20mm und 25mm sein"
     )
 
     assert(
@@ -42,16 +42,16 @@
     assert(type(name) == str, message:"Name soll ein string sein")
     assert(type(referenzfach) == str, message: "Referenzfach soll ein string sein")
     assert(type(bezugsfach) == str, message: "Bezugsfach soll ein string sein")
-    // check if pruefer follws this format ((name: "name"), (name: "name"))
+    // check if pruefer follows this format ((name: "name"), (name: "name"))
     assert(type(pruefer) == array and pruefer.all(p => type(p) == dictionary and "name" in p), message: "Prüfer muss dem Format ((name: \"name\"), ...) entsprechen")
     assert(type(stadt) == str, message: "Stadt muss ein string sein")
     assert(
       type(vorgelegt_am) == datetime, 
-      message: "vorgelegt_am soll ein datetime Objekt sein"
+      message: "vorgelegt_am soll ein datetime-Objekt sein"
     )
     assert(
       type(abgabetermin_am) == datetime,
-      message: "abgabetermin_am soll ein datetime Objekt sein"
+      message: "abgabetermin_am soll ein datetime-Objekt sein"
     )
     assert(
       vorgelegt_am <= abgabetermin_am,
