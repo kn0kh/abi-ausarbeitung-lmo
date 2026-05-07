@@ -31,6 +31,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 
 ## Quick Start
 
+If the package is installed locally, you can use it to create a new project:
 
 ```bash
 typst init @local/easy-abi-ausarbeitung:0.1.0 my-report
