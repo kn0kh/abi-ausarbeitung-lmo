@@ -1,36 +1,6 @@
 #import "elemente/deckblatt.typ": render-deckblatt
 #import "elemente/declaration.typ": eig-ung
-
-#let _validate-algemein-inputs(  
-  abstand-oben, 
-  abstand-unten,
-  abstand-links, 
-  abstand-rechts, 
-  schriftart
-  ) = {
-    assert(
-      type(abstand-links) == length and abstand-links >= 20mm and abstand-links <= 30mm,
-      message: "Linker Abstand soll zwischen 20mm und 30mm sein"
-    )
-    assert(
-      type(abstand-rechts) == length and abstand-rechts >= 20mm and abstand-rechts <= 30mm,
-      message: "Rechter Abstand soll zwischen 20mm und 30mm sein"
-    )
-    assert(
-      type(abstand-oben) == length and abstand-oben >= 20mm and abstand-oben <= 25mm,
-      message: "Obere Abstand soll zwischen 20mm und 25mm sein"
-    )
-    assert(
-      type(abstand-unten) == length and abstand-unten >= 20mm and abstand-unten <= 25mm,
-      message: "Untere Abstand soll zwischen 20mm und 30mm sein"
-    )
-
-    assert(
-      schriftart in ("Arial", "Times New Roman", "Verdana"),
-      message: "Die Schriftart kann nur Arial(11pt), Verdana(11pt) oder Times New Roman(12pt) sein"
-    )
-  }
-
+#import "helpers/validators.typ": _validate-algemein-inputs
 
 #let ausarbeitung(
   abstand-oben: 25mm, // zwischen 20mm und 25mm

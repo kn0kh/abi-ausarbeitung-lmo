@@ -1,35 +1,5 @@
 #import "/helpers/datum.typ": aktuelles_abi, datum_bekommen
-
-#let _validate-deckblatt-inputs(  
-  leitfrage,
-  name,
-  referenzfach,
-  bezugsfach,
-  pruefer,
-  vorgelegt_am,
-  abgabetermin_am,
-  stadt
-  ) = {
-    assert(type(leitfrage) == str, message:"Die Leitfrage soll ein string sein")
-    assert(type(name) == str, message:"Name soll ein string sein")
-    assert(type(referenzfach) == str, message: "Referenzfach soll ein string sein")
-    assert(type(bezugsfach) == str, message: "Bezugsfach soll ein string sein")
-    // check if pruefer follws this format ((name: "name"), (name: "name"))
-    assert(type(pruefer) == array and pruefer.all(p => type(p) == dictionary and "name" in p), message: "Prüfer muss dem Format ((name: \"name\"), ...) entsprechen")
-    assert(type(stadt) == str, message: "Stadt muss ein string sein")
-    assert(
-      type(vorgelegt_am) == datetime, 
-      message: "vorgelegt_am soll ein datetime Objekt sein"
-    )
-    assert(
-      type(abgabetermin_am) == datetime,
-      message: "abgabetermin_am soll ein datetime Objekt sein"
-    )
-    assert(
-      vorgelegt_am <= abgabetermin_am,
-      message: "vorgelegt_am soll vor oder am selben Tag sein wie abgabetermin_am"
-    )
-  }
+#import "/helpers/validators.typ": _validate-deckblatt-inputs
 
 #let render-deckblatt(
   leitfrage: "Eine sehr interessante Leitfrage über Heidelbeere und deren Funktion in der Gesellschaft!",
