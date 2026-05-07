@@ -51,7 +51,7 @@ Die zentrale Idee ist ein `#show: ausarbeitung.with(...)`-Block. Alles, was dana
 #import "@local/abi-ausarbeitung-lmo:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
-	leitfrage: "Eine sehr interessante Leitfrage über Heidelbeere und deren Funktion in der Gesellschaft!",
+	leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!",
 	name: "Max Mustermann",
 	referenzfach: "Geschichte",
 	bezugsfach: "Politikwissenschaft",
