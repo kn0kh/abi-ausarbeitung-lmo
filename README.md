@@ -4,6 +4,9 @@ Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente am 
 
 Die Vorlage ist bewusst schlank gehalten, du kannst die gerne clonen und bearbeiten.
 
+Typst template for the written report for the 5th examination component at OSZ Lise-Meitner in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
+Thought this Template is only intended for German users here is a english version of readme: [README-en.md](README-en.md)
+
 ## Voraussetzungen
 
 - Typst 0.14.2 oder neuer
@@ -109,6 +112,7 @@ Füge die Quellen in `references.bib` ein und verwende im Text die üblichen Typ
 - [elemente/deckblatt.typ](elemente/deckblatt.typ) rendert das Deckblatt
 - [elemente/declaration.typ](elemente/declaration.typ) erzeugt die Eigenständigkeitserklärung
 - [helpers/datum.typ](helpers/datum.typ) liefert Datumshilfen
+- [helpers/validators.typ](helpers/validators.typ) enthält Funktionen zur Validierung der Parameter
 - [template/main.typ](template/main.typ) zeigt ein lauffähiges Beispiel
 - [template/references.bib](template/references.bib) ist die Beispiel-Bibliografie
 - [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) ist der mitgelieferte Zitierstil
