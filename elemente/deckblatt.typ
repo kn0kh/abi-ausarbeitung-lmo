@@ -7,7 +7,8 @@
   bezugsfach,
   pruefer,
   vorgelegt_am,
-  abgabetermin_am
+  abgabetermin_am,
+  stadt
   ) = {
     assert(type(leitfrage) == str, message:"Die Leitfrage soll ein string sein")
     assert(type(name) == str, message:"Name soll ein string sein")
@@ -15,6 +16,7 @@
     assert(type(bezugsfach) == str, message: "Bezugsfach soll ein string sein")
     // check if pruefer follws this format ((name: "name"), (name: "name"))
     assert(type(pruefer) == array and pruefer.all(p => type(p) == dictionary and "name" in p), message: "Prüfer muss dem Format ((name: \"name\"), ...) entsprechen")
+    assert(type(stadt) == str, message: "Stadt muss ein string sein")
     assert(
       type(vorgelegt_am) == datetime, 
       message: "vorgelegt_am soll ein datetime Objekt sein"
@@ -37,8 +39,9 @@
   pruefer: ((name: "Frau Muster"), (name: "Herr Mann")),
   vorgelegt_am: datetime.today(),
   abgabetermin_am: datetime.today(),
+  stadt: "Berlin"
 ) = {
-  _validate-deckblatt-inputs(leitfrage, name, referenzfach, bezugsfach, pruefer, vorgelegt_am, abgabetermin_am)
+  _validate-deckblatt-inputs(leitfrage, name, referenzfach, bezugsfach, pruefer, vorgelegt_am, abgabetermin_am, stadt)
 
   let jahr = aktuelles_abi()
 
@@ -66,7 +69,7 @@
       // The current date
       align(center, text(
         size: 12pt,
-        "Berlin, " + datum_bekommen(),
+        stadt + ", " + datum_bekommen(),
       ))
       v(1fr)
 

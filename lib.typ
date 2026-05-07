@@ -90,7 +90,8 @@
     bezugsfach: bezugsfach,
     pruefer: pruefer, 
     vorgelegt_am: vorgelegt_am,
-    abgabetermin_am: abgabetermin_am
+    abgabetermin_am: abgabetermin_am,
+    stadt: stadt
   )
 
   //Inhaltsverzeichnis
