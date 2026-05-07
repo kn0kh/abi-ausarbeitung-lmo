@@ -1,4 +1,4 @@
-# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente am Lise-Meitner OSZ
+# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente am Lise-Meitner OSZ (Inoffiziell)
 
 Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente am OSZ Lise-Meitner in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
 
