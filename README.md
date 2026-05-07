@@ -1,10 +1,10 @@
-# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente am Lise-Meitner OSZ (Inoffiziell)
+# Typst-Template für die schriftliche Ausarbeitung der 5. Prüfungskomponente in Berlin (Inoffiziell)
 
-Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente am OSZ Lise-Meitner in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
+Typst-Template für die schriftliche Ausarbeitung zur 5. Prüfungskomponente in Berlin. Du schreibst den Inhalt, das Template übernimmt Deckblatt, Inhaltsverzeichnis, Quellenangaben und Eigenständigkeitserklärung.
 
 Die Vorlage ist bewusst schlank gehalten, du kannst die gerne clonen und bearbeiten.
 
-Typst template for the written report for the 5th examination component at OSZ Lise-Meitner in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
+Typst template for the written report for the 5th examination component in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
 Thought this Template is only intended for German users here is a english version of readme: [README-en.md](README-en.md)
 
 ## Voraussetzungen
@@ -37,7 +37,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 Wenn das Paket lokal installiert ist, kannst du damit ein neues Projekt erzeugen:
 
 ```bash
-typst init @local/abi-ausarbeitung-lmo:0.1.0 meine-ausarbeitung
+typst init @local/abi-ausarbeitung:0.1.0 meine-ausarbeitung
 cd meine-ausarbeitung
 typst watch main.typ
 ```
@@ -51,7 +51,7 @@ typst watch --root . template/main.typ
 Die zentrale Idee ist ein `#show: ausarbeitung.with(...)`-Block. Alles, was danach in der Datei steht, wird als Hauptteil der Ausarbeitung gesetzt.
 
 ```typst
-#import "@local/abi-ausarbeitung-lmo:0.1.0": ausarbeitung
+#import "@local/abi-ausarbeitung:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
 	leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!",
@@ -115,7 +115,7 @@ Füge die Quellen in `references.bib` ein und verwende im Text die üblichen Typ
 - [helpers/validators.typ](helpers/validators.typ) enthält Funktionen zur Validierung der Parameter
 - [template/main.typ](template/main.typ) zeigt ein lauffähiges Beispiel
 - [template/references.bib](template/references.bib) ist die Beispiel-Bibliografie
-- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) ist der mitgelieferte Zitierstil
+- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) ist ein spezifischer Zitierstil, der vom OSZ Lise-Meitner verlangt wird
 
 ## Lizenz
 

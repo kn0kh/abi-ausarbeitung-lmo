@@ -1,8 +1,8 @@
-#import "@local/abi-ausarbeitung-lmo:0.1.0": *
+#import "@local/abi-ausarbeitung:0.1.0": *
 
 #show: ausarbeitung.with(
 	// HIER KONFIGURIEREN
-	bibliography: bibliography("references.bib", style: "handout-5pk-lmo.csl", title: none),
+	bibliography: bibliography("references.bib", style: "handout-5pk-lmo.csl", title: none), // handout-5pk-lmo ist enthält spezifischen Quellenstyl
 )
 = Themenfindung
 #linebreak()

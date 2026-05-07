@@ -9,7 +9,8 @@
   pruefer: ((name: "Frau Muster"), (name: "Herr Mann")),
   vorgelegt_am: datetime.today(),
   abgabetermin_am: datetime.today(),
-  stadt: "Berlin"
+  stadt: "Berlin",
+  schule: "OSZ-Lise-Meitner"
 ) = {
   _validate-deckblatt-inputs(leitfrage, name, referenzfach, bezugsfach, pruefer, vorgelegt_am, abgabetermin_am, stadt)
 
@@ -25,7 +26,7 @@
         #text(size: 24pt)[Schriftliche Ausarbeitung]\
         im Rahmen der 5. Prüfungskomponente des Abiturs\
         #v(1em)
-        OSZ-Lise-Meitner \
+        #schule \
         #jahr
       ]))
 

@@ -19,6 +19,7 @@
   bibliography: none, // Literaturverzeichnis
   gruppenarbeit: false, // true = Gruppearbeit
   stadt: "Berlin", // Stadt in der die Arbeit geschrieben wird (veraussetzlich Berlin)
+  schule: "OSZ-Lise-Meitner" // deine Schule
   ) = {
 
   // Algemein
@@ -61,7 +62,8 @@
     pruefer: pruefer, 
     vorgelegt_am: vorgelegt_am,
     abgabetermin_am: abgabetermin_am,
-    stadt: stadt
+    stadt: stadt,
+    schule: schule
   )
 
   //Inhaltsverzeichnis

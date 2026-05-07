@@ -1,13 +1,13 @@
 [package]
-name = "abi-ausarbeitung-lmo"
+name = "abi-ausarbeitung"
 version = "0.1.0"
 entrypoint = "lib.typ"
 compiler = "0.14.2"
 authors = ["Philipp Knoch"]
 license = "MIT"
-description = "Ein Template zum erstellen einer schriftlichen Ausarbeitung zur 5.PK an der Lise Mietner OSZ in Berlin. (Inoffiziell)."
+description = "Ein Template zum erstellen einer schriftlichen Ausarbeitung zur 5.PK in Berlin. (Inoffiziell)."
 repository = "https://github.com/kn0kh/abi-ausarbeitung-lmo"
-keyword = ["5PK", "Ausarbeitung", "Lise Meitner OSZ", "5.Prüfungskomponente", "Schriftliche Ausarbeitung", "Abitur", "Berlin"]
+keyword = ["5PK", "Ausarbeitung", "5.Prüfungskomponente", "Schriftliche Ausarbeitung", "Abitur", "Berlin"]
 categories = ["thesis", "report"]
 
 [template]

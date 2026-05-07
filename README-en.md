@@ -1,6 +1,6 @@
-# Typst template for the written report of the 5th examination component at Lise-Meitner OSZ (Unofficial)
+# Typst template for the written report of the 5th examination component in Berlin (Unofficial)
 
-Typst template for the written report for the 5th examination component at OSZ Lise-Meitner in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
+Typst template for the written report for the 5th examination component in Berlin. You write the content; the template takes care of the cover page, table of contents, references, and declaration of originality.
 
 The template is intentionally kept minimal, so feel free to clone it and adapt it.
 
@@ -34,7 +34,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 If the package is installed locally, you can use it to create a new project:
 
 ```bash
-typst init @local/abi-ausarbeitung-lmo:0.1.0 my-report
+typst init @local/abi-ausarbeitung:0.1.0 my-report
 cd my-report
 typst watch main.typ
 ```
@@ -48,7 +48,7 @@ typst watch --root . template/main.typ
 The central idea is a `#show: ausarbeitung.with(...)` block. Everything that follows in the file is set as the main body of the report.
 
 ```typst
-#import "@local/abi-ausarbeitung-lmo:0.1.0": ausarbeitung
+#import "@local/abi-ausarbeitung:0.1.0": ausarbeitung
 
 #show: ausarbeitung.with(
 	leitfrage: "A very interesting guiding question about blueberries and their role in society!",
@@ -112,7 +112,7 @@ Add your sources to `references.bib` and use the usual Typst citations in the te
 - [helpers/validators.typ](helpers/validators.typ) contains functions to validate the parameters
 - [template/main.typ](template/main.typ) shows a working example
 - [template/references.bib](template/references.bib) is the example bibliography
-- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) is the included citation style
+- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) is a specific citation style asked for by the OSZ Lise-Meitner
 
 ## License
 
