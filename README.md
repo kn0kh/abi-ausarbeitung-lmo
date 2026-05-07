@@ -93,6 +93,7 @@ Du kannst im Hauptteil ganz normal mit Überschriften, Aufzählungen, Zitaten un
 | `bibliography-style` | `handout-5pk-lmo` | Zitierstil, z. B. "ieee" (handout-5pk-lmo ist ein benutzerdefinierter Stil, speziell für die 5. Prüfungskomponente in Berlin) |
 | `gruppenarbeit` | `false` | Erzeugt auf der Erklärungsseite die Wir-Form |
 | `stadt` | `Berlin` | Ort in der Eigenständigkeitserklärung |
+| `schule` | `OSZ Lise-Meitner` | Schule |
 | `abstand-oben` | `25mm` | Oberer Seitenrand |
 | `abstand-unten` | `25mm` | Unterer Seitenrand |
 | `abstand-links` | `25mm` | Linker Seitenrand |
