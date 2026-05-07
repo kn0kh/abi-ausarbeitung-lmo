@@ -90,7 +90,7 @@ Du kannst im Hauptteil ganz normal mit Überschriften, Aufzählungen, Zitaten un
 
 | Parameter | Standard | Bedeutung |
 | --- | --- | --- |
-| `bibliography` | `none` | Literatur- und Medienverzeichnis |
+| `bibliography-style` | `handout-5pk-lmo` | Zitierstil, z. B. "ieee" (handout-5pk-lmo ist ein benutzerdefinierter Stil, speziell für die 5. Prüfungskomponente in Berlin) |
 | `gruppenarbeit` | `false` | Erzeugt auf der Erklärungsseite die Wir-Form |
 | `stadt` | `Berlin` | Ort in der Eigenständigkeitserklärung |
 | `abstand-oben` | `25mm` | Oberer Seitenrand |
@@ -109,13 +109,13 @@ Füge die Quellen in `references.bib` ein und verwende im Text die üblichen Typ
 ## Wichtige Dateien
 
 - [lib.typ](lib.typ) enthält die öffentliche Funktion `ausarbeitung()`
+- [handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) ist ein spezifischer Zitierstil, der vom OSZ Lise-Meitner verlangt wird
 - [elemente/deckblatt.typ](elemente/deckblatt.typ) rendert das Deckblatt
 - [elemente/declaration.typ](elemente/declaration.typ) erzeugt die Eigenständigkeitserklärung
 - [helpers/datum.typ](helpers/datum.typ) liefert Datumshilfen
 - [helpers/validators.typ](helpers/validators.typ) enthält Funktionen zur Validierung der Parameter
 - [template/main.typ](template/main.typ) zeigt ein lauffähiges Beispiel
 - [template/references.bib](template/references.bib) ist die Beispiel-Bibliografie
-- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) ist ein spezifischer Zitierstil, der vom OSZ Lise-Meitner verlangt wird
 
 ## Lizenz
 

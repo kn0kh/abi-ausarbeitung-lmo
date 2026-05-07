@@ -87,7 +87,7 @@ You can use headings, lists, quotations, and sources in the main body as usual. 
 
 | Parameter | Default | Meaning |
 | --- | --- | --- |
-| `bibliography` | `none` | Bibliography of literature and media |
+| `bibliography-style` | `handout-5pk-lmo` | Bibliography style e.g "ieee" (handout-5pk-lmo is a custom style, specificly for the 5th examination component in Berlin) |
 | `gruppenarbeit` | `false` | Uses the plural "we" form on the declaration page |
 | `stadt` | `Berlin` | Place in the declaration of originality |
 | `abstand-oben` | `25mm` | Top margin |
@@ -106,13 +106,13 @@ Add your sources to `references.bib` and use the usual Typst citations in the te
 ## Important Files
 
 - [lib.typ](lib.typ) contains the public function `ausarbeitung()`
+- [handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) is a specific citation style asked for by the OSZ Lise-Meitner
 - [elemente/deckblatt.typ](elemente/deckblatt.typ) renders the cover page
 - [elemente/declaration.typ](elemente/declaration.typ) generates the declaration of originality
 - [helpers/datum.typ](helpers/datum.typ) provides date helpers
 - [helpers/validators.typ](helpers/validators.typ) contains functions to validate the parameters
 - [template/main.typ](template/main.typ) shows a working example
 - [template/references.bib](template/references.bib) is the example bibliography
-- [template/handout-5pk-lmo.csl](template/handout-5pk-lmo.csl) is a specific citation style asked for by the OSZ Lise-Meitner
 
 ## License
 

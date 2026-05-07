@@ -2,7 +2,7 @@
 
 #show: ausarbeitung.with(
 	// HIER KONFIGURIEREN
-	bibliography: bibliography("references.bib", style: "handout-5pk-lmo.csl", title: none), // handout-5pk-lmo ist enthält spezifischen Quellenstyl
+
 )
 // HIER DEN HAUPTTEIL SCHREIBEN
 = Themenfindung

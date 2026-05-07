@@ -16,7 +16,7 @@
   vorgelegt_am: datetime.today(), // Tag der Abgabe
   abgabetermin_am: datetime.today(), // Datum der Frist 
   body, // Hauptteil
-  bibliography: none, // Literaturverzeichnis
+  bibliography-style: "handout-5pk-lmo.csl", // "handout-5pk-lmo" or any other style available in typst
   gruppenarbeit: false, // true = Gruppearbeit
   stadt: "Berlin", // Stadt in der die Arbeit geschrieben wird (veraussetzlich Berlin)
   schule: "OSZ-Lise-Meitner" // deine Schule
@@ -77,12 +77,11 @@
   body
 
   //Literaturverzeichnis
-  if bibliography != none {
-    pagebreak()
-    heading(level: 1, numbering: none)[Literatur- und Medienverzeichnis]
-    linebreak()
-    bibliography
-  }
+  pagebreak()
+  heading(level: 1, numbering: none)[Literatur- und Medienverzeichnis]
+  linebreak()
+  bibliography("template/references.bib", style: bibliography-style, title: none)
+
 
   //Eigenständigkeitserklärung
   eig-ung(
