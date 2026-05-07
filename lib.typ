@@ -8,7 +8,7 @@
   abstand-links: 25mm, // zwischen 20mm und 30mm
   abstand-rechts: 25mm, // zwischen 20mm und 30mm
   schriftart: "Times New Roman", // "Arial" | "Times New Roman" | "Verdana"
-  leitfrage: "Eine sehr interessante Leitfrage über Heidelbeere und deren Funktion in der Gesellschaft!", // deine Leitrfage
+  leitfrage: "Eine sehr interessante Leitfrage über Heidelbeeren und deren Funktion in der Gesellschaft!", // deine Leitrfage
   name: "Max Mustermann", // dein Name
   referenzfach: "[Referenzfach]", // dein Referenzfach
   bezugsfach: "[Bezungsfach]", // dein Bezugsfach
